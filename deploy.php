@@ -12,7 +12,7 @@ require 'contrib/rsync.php';
 // Include hosts
 import('.hosts.yml');
 
-set('http_user', 'pXXXXXX');
+set('http_user', 'p702247');
 set('http_group', 'users');
 
 set('/usr/local/bin/php', 'php');
@@ -84,7 +84,9 @@ $exclude = [
     // GitHub Actions
     '.github',
     // CLAUDE.md (development documentation)
-    'CLAUDE.md'
+    'CLAUDE.md',
+    'config.sh',
+    'sync.sh'
 ];
 
 // Define rsync options

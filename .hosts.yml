@@ -1,6 +1,6 @@
 hosts:
   production:
-    hostname: '185.166.23.30'
-    remote_user: 'p702247'
+    hostname: ''
+    remote_user: ''
     port: 22
     deploy_path: '/home/www/p702247/html/p702247-demoprojekt/production'

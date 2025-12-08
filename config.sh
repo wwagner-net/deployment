@@ -2,13 +2,13 @@
 # Konfiguration für TYPO3-Synchronisierungstool
 
 # SSH-Zugangsdaten
-REMOTE_HOST="p702247"
+REMOTE_HOST=""
 
 # Datenbank-Zugangsdaten
-DB_HOST="db003424.mydbserver.com"
-DB_USER="p702247"
-DB_PASS='07o0mPM=b%!r'
-DB_NAME="usr_p702247_2"
+DB_HOST=""
+DB_USER=""
+DB_PASS=''
+DB_NAME=""
 
 # Pfade
 BASE_PATH="/home/www/p702247/html/p702247-demoprojekt/production"

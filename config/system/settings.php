@@ -16,16 +16,16 @@ return [
         'Connections' => [
             'Default' => [
                 'charset' => 'utf8mb4',
-                'dbname' => 'usr_p702247_2',
+                'dbname' => '',
                 'defaultTableOptions' => [
                     'charset' => 'utf8mb4',
                     'collation' => 'utf8mb4_unicode_ci',
                 ],
                 'driver' => 'mysqli',
-                'host' => 'db003424.mydbserver.com',
-                'password' => '07o0mPM=b%!r',
+                'host' => '',
+                'password' => '',
                 'port' => 3306,
-                'user' => 'p702247',
+                'user' => '',
             ],
         ],
     ],

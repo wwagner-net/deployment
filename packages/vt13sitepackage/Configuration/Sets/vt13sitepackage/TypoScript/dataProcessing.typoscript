@@ -1,0 +1,32 @@
+page.10.dataProcessing {
+  10 = menu
+  10 {
+    as = mainMenu
+    expandAll = 1
+    levels = 3
+  }
+
+  ## Meta-Navigation
+  20 = menu
+  20 {
+    as = metaMenu
+    special = directory
+    special.value = {$vt13sitepackage.metaMenuUid}
+    levels = 1
+  }
+
+  ## Rootline-Navigation
+  30 = menu
+  30 {
+    as = rootline
+    special = rootline
+    special.range = 0|-1
+  }
+
+  ## Language Menu
+  40 = language-menu
+  40 {
+    as = languageMenu
+    languages = auto
+  }
+}

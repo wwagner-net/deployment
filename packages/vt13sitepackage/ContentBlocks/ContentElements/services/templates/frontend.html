@@ -1,0 +1,29 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default"/>
+<f:section name="Header"/>
+<f:section name="Main">
+
+	<div id="services" class="services">
+
+			<div class="row gy-4">
+				<f:for each="{data.serviceelements}" as="item" iteration="i">
+					<div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="{i.cycle}00">
+						<div class="icon flex-shrink-0"><i class="bi {item.icon}"></i></div>
+						<div>
+							<h4 class="title">
+								<f:link.typolink class="stretched-link" parameter="{item.header_link}">
+									{item.title}
+								</f:link.typolink>
+							</h4>
+							<div class="description">
+								<f:format.html parseFuncTSPath="lib.parseFunc_RTE">{item.bodytext}</f:format.html>
+							</div>
+						</div>
+					</div>
+				</f:for>
+			</div>
+
+	</div>
+
+</f:section>
+</html>

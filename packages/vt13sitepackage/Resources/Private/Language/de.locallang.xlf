@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" target-language="de" datatype="plaintext" original="EXT:vt13sitepackage/Resources/Private/Language/locallang.xlf" date="2024-10-25T10:05:50Z" product-name="vt13sitepackage">
+		<header/>
+		<body>
+			<trans-unit id="sitepackagename" resname="sitepackagename">
+				<source>VT13 Site Package</source>
+				<target>VT13 Seiten-Paketextensions</target>
+			</trans-unit>
+			<trans-unit id="vt13sitepackage.pageUids" resname="vt13sitepackage.pageUids">
+				<source>Website-specific page ids</source>
+				<target>Website-spezifische Page Uids</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

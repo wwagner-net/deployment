@@ -1,0 +1,10 @@
+styles:
+  content:
+    textmedia:
+      maxW: 1296
+      maxWInText: 648
+      linkWrap:
+        lightboxEnabled: true
+        lightboxCssClass: glightbox
+        width: 1280m
+        height: 1280m

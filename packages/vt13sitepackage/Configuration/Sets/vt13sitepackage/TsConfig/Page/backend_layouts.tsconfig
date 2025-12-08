@@ -1,0 +1,95 @@
+mod.web_layout.BackendLayouts {
+  sidebar {
+    title = Layout mit Sidebar
+    #icon = content-container-columns-2
+    config {
+      backend_layout {
+        colCount = 3
+        rowCount = 2
+        rows {
+          1 {
+            columns {
+              1 {
+                name = Normal
+                colspan = 2
+                colPos = 0
+                identifier = normal
+              }
+              2 {
+                name = Sidebar
+                colPos = 1
+                identifier = sidebar
+              }
+            }
+          }
+          2 {
+            columns {
+              1 {
+                name = Links
+                colPos = 2
+                identifier = left
+                slideMode = slide
+              }
+              2 {
+                name = Mitte
+                colPos = 3
+                identifier = center
+                slideMode = slide
+              }
+              3 {
+                name = Rechts
+                colPos = 4
+                identifier = right
+                slideMode = slide
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  default {
+    title = Default Layout
+    #icon = content-container-columns-2
+    config {
+      backend_layout {
+        colCount = 3
+        rowCount = 2
+        rows {
+          1 {
+            columns {
+              1 {
+                name = Normal
+                colspan = 3
+                colPos = 0
+                identifier = normal
+              }
+            }
+          }
+          2 {
+            columns {
+              1 {
+                name = Links
+                colPos = 2
+                identifier = left
+                slideMode = slide
+              }
+              2 {
+                name = Mitte
+                colPos = 3
+                identifier = center
+                slideMode = slide
+              }
+              3 {
+                name = Rechts
+                colPos = 4
+                identifier = right
+                slideMode = slide
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

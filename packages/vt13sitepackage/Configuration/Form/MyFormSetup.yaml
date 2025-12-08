@@ -1,0 +1,15 @@
+persistenceManager:
+  allowSaveToExtensionPaths: true
+  allowDeleteFromExtensionPaths: false
+  allowedExtensionPaths:
+    10: EXT:vt13sitepackage/Resources/Private/FormDefinitions/
+
+prototypes:
+  standard:
+    finishersDefinition:
+      EmailToReceiver:
+        implementationClassName: TYPO3\CMS\Form\Domain\Finishers\EmailFinisher
+        options:
+          templateName: 'Receiver'
+          templateRootPaths:
+            10: 'EXT:vt13sitepackage/Resources/Private/Extensions/form/Templates/Finishers/Email/'

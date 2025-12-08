@@ -1,0 +1,39 @@
+plugin.tx_indexedsearch {
+  _LOCAL_LANG {
+    de {
+      form.submit = Finden
+      #form.searchFor = Finde was du suchst
+    }
+    default {
+      form.submit = Find
+    }
+    fr {
+      form.submit = Trouver
+    }
+    mi {
+      form.submit = Kimihia
+      form.searchFor = Rapua
+      result.noResult = Karekau he hua i kitea.
+    }
+  }
+  settings {
+    rootPidList = {$vt13sitepackage.search.rootPidList}
+    targetPid = {$vt13sitepackage.search.targetPid}
+
+    blind {
+      numberOfResults = 10
+    }
+  }
+  view {
+    partialRootPaths {
+      100 = EXT:vt13sitepackage/Resources/Private/Extensions/indexed_search/Partials/
+    }
+  }
+}
+
+lib.searchField = RECORDS
+lib.searchField {
+  tables = tt_content
+  source = {$vt13sitepackage.search.pluginUID}
+  dontCheckPid = 1
+}

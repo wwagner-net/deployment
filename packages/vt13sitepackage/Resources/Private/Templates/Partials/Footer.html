@@ -1,0 +1,78 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:spaceless>
+	<footer id="footer" class="footer dark-background">
+
+		<div class="container">
+			<div class="row gy-3">
+				<div class="col-lg-3 col-md-6 d-flex">
+                    <f:for each="{content.left.records}" as="contentElement">
+                        <f:cObject
+                            typoscriptObjectPath="{contentElement.mainType}"
+                            table="{contentElement.mainType}"
+                            data="{contentElement}"
+                        />
+                    </f:for>
+				</div>
+
+				<div class="col-lg-3 col-md-6 d-flex">
+                    <f:for each="{content.center.records}" as="contentElement">
+                        <f:cObject
+                            typoscriptObjectPath="{contentElement.mainType}"
+                            table="{contentElement.mainType}"
+                            data="{contentElement}"
+                        />
+                    </f:for>
+				</div>
+
+				<div class="col-lg-3 col-md-6 d-flex">
+                    <f:for each="{content.right.records}" as="contentElement">
+                        <f:cObject
+                            typoscriptObjectPath="{contentElement.mainType}"
+                            table="{contentElement.mainType}"
+                            data="{contentElement}"
+                        />
+                    </f:for>
+				</div>
+
+				<div class="col-lg-3 col-md-6">
+					<h4>Follow Us</h4>
+					<div class="social-links d-flex">
+
+						<f:for each="{settings.vt13sitepackage.socialicons}" as="icon">
+							<f:if condition="{icon.link} && {icon.icon}">
+								<f:link.typolink target="_blank" parameter="{icon.link}">
+									<i class="bi {icon.icon}"></i>
+								</f:link.typolink>
+							</f:if>
+						</f:for>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="container copyright text-center mt-4">
+			<ul class="metaMenu">
+				<f:for each="{metaMenu}" as="item">
+					<li>
+						<f:link.typolink parameter="{item.data.uid}" class="{f:if(condition: item.current, then: 'active')}">
+							{item.title}
+						</f:link.typolink>
+					</li>
+				</f:for>
+			</ul>
+
+
+			<p>&copy; <f:format.date date="now" format="Y"/> {settings.vt13sitepackage.copyrighttext}</p>
+			<div class="credits">
+				<!-- All the links in the footer should remain intact. -->
+				<!-- You can delete the links only if you've purchased the pro version. -->
+				<!-- Licensing information: https://bootstrapmade.com/license/ -->
+				<!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+				Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+			</div>
+		</div>
+
+	</footer>
+</f:spaceless>
+</html>

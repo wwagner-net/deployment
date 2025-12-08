@@ -1,0 +1,2 @@
+plugin.tx_form.settings.yamlConfigurations.100 = EXT:vt13sitepackage/Configuration/Form/MyFormSetup.yaml
+module.tx_form.settings.yamlConfigurations.100 = EXT:vt13sitepackage/Configuration/Form/MyFormSetup.yaml

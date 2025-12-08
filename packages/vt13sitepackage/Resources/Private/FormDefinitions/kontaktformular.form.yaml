@@ -1,0 +1,90 @@
+
+renderingOptions:
+  submitButtonLabel: 'Nachricht senden'
+type: Form
+identifier: kontaktformular
+label: Kontaktformular
+prototypeName: standard
+finishers:
+  -
+    options:
+      subject: '{text-2}'
+      recipients:
+        videotraining@wwagner.net: Wolfgang
+      senderAddress: noreply@myproject.ddev.site
+      senderName: '{text-1}'
+      replyToRecipients:
+        '{email-1}': '{text-1}'
+      addHtmlPart: true
+      attachUploads: true
+      translation:
+        language: Default
+      title: ''
+    identifier: EmailToReceiver
+  -
+    options:
+      pageUid: '27'
+      additionalParameters: ''
+      fragment: ''
+    identifier: Redirect
+renderables:
+  -
+    renderingOptions:
+      previousButtonLabel: 'Previous step'
+      nextButtonLabel: 'Next step'
+    type: Page
+    identifier: page-1
+    label: 'Ihre Nachricht an uns'
+    renderables:
+      -
+        defaultValue: ''
+        type: Text
+        identifier: text-1
+        label: 'Ihr Name'
+        properties:
+          fluidAdditionalAttributes:
+            placeholder: 'Vorname Nachname'
+            autocomplete: name
+            required: required
+        validators:
+          -
+            identifier: NotEmpty
+      -
+        defaultValue: ''
+        type: Email
+        identifier: email-1
+        label: E-Mailadresse
+        properties:
+          elementDescription: ''
+          fluidAdditionalAttributes:
+            placeholder: name@domain.de
+            autocomplete: email
+            required: required
+        validators:
+          -
+            identifier: EmailAddress
+          -
+            identifier: NotEmpty
+      -
+        defaultValue: ''
+        type: Text
+        identifier: text-2
+        label: Betreff
+        properties:
+          fluidAdditionalAttributes:
+            placeholder: 'Anfrage zu Produkt X'
+            required: required
+        validators:
+          -
+            identifier: NotEmpty
+      -
+        defaultValue: ''
+        type: Textarea
+        identifier: textarea-1
+        label: 'Ihre Nachricht'
+        properties:
+          fluidAdditionalAttributes:
+            required: required
+        validators:
+          -
+            identifier: NotEmpty

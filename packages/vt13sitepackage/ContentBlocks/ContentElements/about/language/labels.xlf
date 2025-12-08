@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file datatype="plaintext" original="labels.xlf" source-language="en" date="2024-10-19T13:32:32+00:00" product-name="wwagner/about">
+		<header/>
+		<body>
+			<trans-unit id="title" resname="title">
+				<source>About Section</source>
+			</trans-unit>
+			<trans-unit id="description" resname="description">
+				<source>About section with multiple tabs.</source>
+			</trans-unit>
+			<trans-unit id="image.label" resname="image.label">
+				<source>Image</source>
+			</trans-unit>
+			<trans-unit id="tabs.label" resname="tabs.label">
+				<source>About sections</source>
+			</trans-unit>
+			<trans-unit id="tabs.title.label" resname="tabs.title.label">
+				<source>Section header</source>
+			</trans-unit>
+			<trans-unit id="tabs.subheader.label" resname="tabs.subheader.label">
+				<source>Subheader</source>
+			</trans-unit>
+			<trans-unit id="tabs.bodytext.label" resname="tabs.bodytext.label">
+				<source>Section content</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

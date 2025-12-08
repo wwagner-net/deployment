@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" original="EXT:backend/Resources/Private/Language/locallang_toolbar.xlf" date="2024-06-17T15:00:00Z" product-name="lang" target-language="fr">
+    <header/>
+    <body>
+      <trans-unit id="toolbarItems.bookmarkAlreadyExistsMessage" resname="toolbarItems.bookmarkAlreadyExistsMessage" approved="yes">
+        <source>The document is already in your bookmarks.</source>
+        <target state="final">Le document est déjà dans vos marque-page.</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.bookmarkAlreadyExistsTitle" resname="toolbarItems.bookmarkAlreadyExistsTitle" approved="yes">
+        <source>Bookmark already exists</source>
+        <target state="final">Ce marque-page existe déjà</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.bookmarkFailedMessage" resname="toolbarItems.bookmarkFailedMessage" approved="yes">
+        <source>The bookmark couldn't get created</source>
+        <target state="final">Le marque-page n’a pas pu être créé</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.bookmarkFailedTitle" resname="toolbarItems.bookmarkFailedTitle" approved="yes">
+        <source>Bookmark creation failed</source>
+        <target state="final">La création du marque-page a échoué</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.bookmarkSavedMessage" resname="toolbarItems.bookmarkSavedMessage" approved="yes">
+        <source>The bookmark was saved.</source>
+        <target state="final">Le marque-page a été enregistré.</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.bookmarkSavedTitle" resname="toolbarItems.bookmarkSavedTitle" approved="yes">
+        <source>Bookmark saved</source>
+        <target state="final">Marque-page enregistré</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.bookmarks" resname="toolbarItems.bookmarks" approved="yes">
+        <source>Bookmarks</source>
+        <target state="final">Marque-pages</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.bookmarks.description" resname="toolbarItems.bookmarks.description" approved="yes">
+        <source>This is the bookmarks menu. You do not have any bookmarks added yet. You can add one by clicking the bookmark icon %s, which you can find on all pages in the backend.</source>
+        <target state="final">Ceci est le menu des marque-pages. Vous n'en avez encore ajouté aucun. Vous pouvez en ajouter un en cliquant sur l’icône de marque-page %s, que vous pouvez trouver sur toutes les pages du backend.</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.bookmarks.field.group" resname="toolbarItems.bookmarks.field.group" approved="yes">
+        <source>Group</source>
+        <target state="final">Groupe</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.bookmarks.field.title" resname="toolbarItems.bookmarks.field.title" approved="yes">
+        <source>Title</source>
+        <target state="final">Titre</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.bookmarks.notGrouped" resname="toolbarItems.bookmarks.notGrouped" approved="yes">
+        <source>Not grouped</source>
+        <target state="final">Non groupés</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.bookmarksDelete" resname="toolbarItems.bookmarksDelete" approved="yes">
+        <source>Delete bookmark</source>
+        <target state="final">Supprimer le marque-page</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.bookmarksEdit" resname="toolbarItems.bookmarksEdit" approved="yes">
+        <source>Edit bookmark</source>
+        <target state="final">Modifier le marque-page</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.confirmBookmarksDelete" resname="toolbarItems.confirmBookmarksDelete" approved="yes">
+        <source>Do you really want to remove this bookmark?</source>
+        <target state="final">Souhaitez-vous réellement retirer ce marque-page ?</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.clearCache" resname="toolbarItems.clearCache" approved="yes">
+        <source>Clear cache</source>
+        <target state="final">Effacer le cache</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.help" resname="toolbarItems.help" approved="yes">
+        <source>Help</source>
+        <target state="final">Aide</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.minMaxModuleMenu" resname="toolbarItems.minMaxModuleMenu" approved="yes">
+        <source>Minimize/maximize module menu</source>
+        <target state="final">Réduire/agrandir le menu des modules</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.search" resname="toolbarItems.search" approved="yes">
+        <source>Search</source>
+        <target state="final">Rechercher</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.searchbarOpenClose" resname="toolbarItems.searchbarOpenClose" approved="yes">
+        <source>Open/Close searchbar</source>
+        <target state="final">Ouvrir/Fermer la barre de recherche</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.sysinfo" resname="toolbarItems.sysinfo" approved="yes">
+        <source>System Information</source>
+        <target state="final">Informations système</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.sysinfo.intro.text" resname="toolbarItems.sysinfo.intro.text" approved="yes">
+        <source>This is a short system overview. For advanced information please head to: </source>
+        <target state="final">Ceci est un bref aperçu du système. Pour des informations plus détaillées veuillez aller à : </target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.sysinfo.intro.link" resname="toolbarItems.sysinfo.intro.link" approved="yes">
+        <source>Environment Module</source>
+        <target state="final">Module Environnement</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.sysinfo.allgood" resname="toolbarItems.sysinfo.allgood" xml:space="preserve" approved="yes">
+				<source>Your system is fully operational.
+Have a nice day.</source>
+			<target state="final">Votre système est entièrement opérationnel. Bonne journée.</target></trans-unit>
+      <trans-unit id="toolbarItems.sysinfo.applicationcontext" resname="toolbarItems.sysinfo.applicationcontext" approved="yes">
+        <source>Application Context</source>
+        <target state="final">Contexte d’application</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.sysinfo.composerMode" resname="toolbarItems.sysinfo.composerMode" approved="yes">
+        <source>Composer mode</source>
+        <target state="final">Mode Composer</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.sysinfo.database" resname="toolbarItems.sysinfo.database" approved="yes">
+        <source>Database</source>
+        <target state="final">Base de données</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.sysinfo.database.offline" resname="toolbarItems.sysinfo.database.offline" approved="yes">
+        <source>Offline</source>
+        <target state="final">Hors-ligne</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.sysinfo.debugger" resname="toolbarItems.sysinfo.debugger" approved="yes">
+        <source>Debugger</source>
+        <target state="final">Débogueur</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.sysinfo.gitrevision" resname="toolbarItems.sysinfo.gitrevision" approved="yes">
+        <source>GIT Revision</source>
+        <target state="final">Révision GIT</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.sysinfo.operatingsystem" resname="toolbarItems.sysinfo.operatingsystem" approved="yes">
+        <source>Operating System</source>
+        <target state="final">Système d’exploitation</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.sysinfo.phpversion" resname="toolbarItems.sysinfo.phpversion" approved="yes">
+        <source>PHP Version</source>
+        <target state="final">Version PHP</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.sysinfo.typo3-version" resname="toolbarItems.sysinfo.typo3-version" approved="yes">
+        <source>TYPO3 Version</source>
+        <target state="final">Version TYPO3</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.sysinfo.webserver" resname="toolbarItems.sysinfo.webserver" approved="yes">
+        <source>Webserver</source>
+        <target state="final">Serveur Web</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.toolbarOpenClose" resname="toolbarItems.toolbarOpenClose" approved="yes">
+        <source>Open/Close toolbar</source>
+        <target state="final">Ouvrir/Fermer la barre d’outils</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.user.account.switchToUserMode.tooltip" resname="toolbarItems.user.account.switchToUserMode.tooltip" approved="yes">
+        <source>Switch to User</source>
+        <target state="final">Basculer vers l’utilisateur</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.user.recentlySwitchedUsers" resname="toolbarItems.user.recentlySwitchedUsers" approved="yes">
+        <source>Recently switched to</source>
+        <target state="final">Récemment basculé vers</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.user.recentlySwitchedUsers.su.tooltip" resname="toolbarItems.user.recentlySwitchedUsers.su.tooltip" approved="yes">
+        <source>Switch to user %s</source>
+        <target state="final">Basculer vers l’utilisateur %s</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.user.btn.exitSwitchUser" resname="toolbarItems.user.btn.exitSwitchUser" approved="yes">
+        <source>Exit switch user mode</source>
+        <target state="final">Sortir du mode de bascule d’utilisateur</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.user.btn.logout" resname="toolbarItems.user.btn.logout" approved="yes">
+        <source>Logout</source>
+        <target state="final">Se déconnecter</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

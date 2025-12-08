@@ -1,0 +1,28 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:spaceless>
+	<header id="header" class="header d-flex align-items-center sticky-top">
+		<div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+			<f:link.typolink parameter="{site.rootPageId}" class="logo d-flex align-items-center me-auto">
+				<f:image src="EXT:vt13sitepackage/Resources/Public/img/innovatech_logo.svg" height="80"/>
+			</f:link.typolink>
+
+			<f:render partial="MainMenu" arguments="{_all}"/>
+
+		</div>
+	</header>
+
+	<main class="main">
+		<f:render partial="Rootline" arguments="{_all}"/>
+		<!--TYPO3SEARCH_begin-->
+		<f:render section="Main"/>
+		<!--TYPO3SEARCH_end-->
+	</main>
+
+	<f:render partial="Footer" arguments="{_all}"/>
+
+	<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+	<div id="preloader"></div>
+</f:spaceless>
+</html>

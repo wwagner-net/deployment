@@ -1,0 +1,4 @@
+vendor: wwagner
+extension: vt13sitepackage
+content-type: content-element
+skeleton-path: packages/vt13sitepackage/ContentBlocks/content-blocks-skeleton/

@@ -1,0 +1,11 @@
+page.headerData {
+  1729259096 = TEXT
+  1729259096.value (
+    <!-- Hier könnte dein JavaScript-Code stehen -->
+  )
+
+  1729259196 = TEXT
+  1729259196.value (
+    <!-- ein weiterer Code-Block -->
+  )
+}

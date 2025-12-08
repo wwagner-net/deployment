@@ -1,0 +1,50 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:spaceless>
+	<nav id="navmenu" class="navmenu">
+		<ul>
+			<f:for each="{mainMenu}" as="item">
+				<f:render section="MenuItem" arguments="{_all}"/>
+			</f:for>
+		</ul>
+		<i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+	</nav>
+	<f:if condition="{settings.vt13sitepackage.buttonText} && {settings.vt13sitepackage.buttonLink}">
+		<f:link.typolink class="btn-getstarted" parameter="{settings.vt13sitepackage.buttonLink}">
+			{settings.vt13sitepackage.buttonText}
+		</f:link.typolink>
+	</f:if>
+
+	<i class="bi bi-search search_button"></i>
+	<div id="searchlightbox" class="searchlightbox">
+		<div class="lightbox-content">
+			<span class="close">&times;</span>
+			<f:cObject typoscriptObjectPath="lib.searchField"/>
+		</div>
+	</div>
+
+	<f:render partial="LanguageMenu" arguments="{_all}"/>
+
+	<f:render partial="Logout" arguments="{_all}"/>
+
+	<f:section name="MenuItem">
+		<li class="{f:if(condition: item.children, then: 'dropdown')}">
+			<f:link.typolink parameter="{item.data.uid}" class="{f:if(condition: item.current, then: 'active')}">
+				<f:if condition="{item.children}">
+							<span>
+				</f:if>
+				{item.title}
+				<f:if condition="{item.children}">
+					</span> <i class="bi bi-chevron-down toggle-dropdown"></i>
+				</f:if>
+			</f:link.typolink>
+			<f:if condition="{item.children}">
+				<ul>
+					<f:for each="{item.children}" as="item">
+						<f:render section="MenuItem" arguments="{_all}"/>
+					</f:for>
+				</ul>
+			</f:if>
+		</li>
+	</f:section>
+</f:spaceless>
+</html>

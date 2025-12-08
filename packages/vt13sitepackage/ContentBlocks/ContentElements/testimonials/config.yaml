@@ -1,0 +1,63 @@
+name: wwagner/testimonials
+typeName: wwagner_testimonials
+group: default
+prefixFields: false
+prefixType: full
+basics:
+  - TYPO3/Appearance
+  - TYPO3/Links
+  - TYPO3/Categories
+fields:
+  - identifier: header
+    useExistingField: true
+    label: 'Element name (not visible in frontend)'
+  - identifier: testimonials
+    type: Collection
+    label: 'Testimonials'
+    labelField: header
+    minitems: 1
+    appearance:
+      levelLinksPosition: both
+    fields:
+      - identifier: header
+        type: Text
+        required: true
+        useExistingField: true
+        label: 'Name of the person'
+      - identifier: subheader
+        type: Text
+        useExistingField: true
+        label: 'Position or company of the person'
+      - identifier: image
+        useExistingField: true
+        label: 'Image of the person'
+        type: File
+        extendedPalette: true
+        minitems: 1
+        maxitems: 1
+        allowed: common-image-types
+      - identifier: rating
+        type: Select
+        renderType: selectSingle
+        label: 'Rating (0-5 stars)'
+        items:
+          - label: '0 stars'
+            value: 0
+          - label: '1 star'
+            value: 1
+          - label: '2 stars'
+            value: 2
+          - label: '3 stars'
+            value: 3
+          - label: '4 stars'
+            value: 4
+          - label: '5 stars'
+            value: 5
+        default: 5
+      - identifier: bodytext
+        type: Textarea
+        useExistingField: true
+        enableRichtext: true
+        label: 'Quote'
+        required: true
+

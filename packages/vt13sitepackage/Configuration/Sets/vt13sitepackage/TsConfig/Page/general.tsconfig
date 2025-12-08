@@ -1,0 +1,5 @@
+RTE.default.preset = full
+
+# RTE.config.tt_content.bodytext.types.textmedia.preset = full
+
+mod.linkvalidator.linktypes = db,file,external

@@ -1,0 +1,141 @@
+categories:
+  vt13sitepackage:
+    label: 'LLL:EXT:vt13sitepackage/Resources/Private/Language/locallang.xlf:sitepackagename'
+  vt13sitepackage.pageUids:
+    label: 'LLL:EXT:vt13sitepackage/Resources/Private/Language/locallang.xlf:vt13sitepackage.pageUids'
+    parent: vt13sitepackage
+  vt13sitepackage.headerbutton:
+    label: 'Button neben der Hauptnavigation'
+    parent: vt13sitepackage
+  vt13sitepackage.copyrightinfo:
+    label: 'Copyright Information im Footer'
+    parent: vt13sitepackage
+  vt13sitepackage.socialicons:
+    label: 'Links zu Social Media Profilen'
+    parent: vt13sitepackage
+
+settings:
+  vt13sitepackage.metaMenuUid:
+    label: 'Uid des Trenners für die Meta-Navigation'
+    category: vt13sitepackage.pageUids
+    type: int
+    default: 15
+  vt13sitepackage.search.rootPidList:
+    label: 'UIDs der Ausgangsseiten für Indexed Search'
+    category: vt13sitepackage.pageUids
+    type: string
+    default: 1
+  vt13sitepackage.search.targetPid:
+    label: 'UID der Seite mit Suchergebnissen'
+    category: vt13sitepackage.pageUids
+    type: int
+    default: 26
+  vt13sitepackage.search.pluginUID:
+    label: 'UID des Indexed Search Plugins'
+    category: vt13sitepackage.pageUids
+    type: int
+    default: 29
+  vt13sitepackage.loginPageID:
+    label: 'Page ID der Seite mit Login-Formular'
+    category: vt13sitepackage.pageUids
+    type: int
+    default: 77
+  vt13sitepackage.buttonText:
+    category: vt13sitepackage.headerbutton
+    label: 'Text des Buttons'
+    type: string
+    default: ''
+  vt13sitepackage.buttonLink:
+    category: vt13sitepackage.headerbutton
+    label: 'Linkziel des Buttons'
+    type: string
+    default: ''
+  vt13sitepackage.copyrighttext:
+    category: vt13sitepackage.copyrightinfo
+    label: 'Copyright Text im Footer'
+    type: string
+    default: 'Innovatech Solutions'
+  vt13sitepackage.socialicons.socialicon1.icon:
+    category: vt13sitepackage.socialicons
+    label: 'CSS klasse für Social Icon 1'
+    description: 'zB: bi-twitter-x, siehe https://icons.getbootstrap.com/'
+    type: string
+    default: 'bi-twitter-x'
+    enum:
+      'bi-twitter-x': 'Twitter/X'
+      'bi-facebook': 'Facebook'
+      'bi-instagram': 'Instagram'
+      'bi-linkedin': 'LinkedIn'
+      'bi-threads': 'Threads'
+      'bi-mastodon': 'Mastodon'
+      'bi-tiktok': 'Tiktok'
+      'bi-youtube': 'YouTube'
+      'bi-envelope-fill': 'Mail'
+  vt13sitepackage.socialicons.socialicon1.link:
+    category: vt13sitepackage.socialicons
+    label: 'Link zu Social Media Profil 1'
+    type: string
+    default: 'https://twitter.com/wowa_typo3'
+  vt13sitepackage.socialicons.socialicon2.icon:
+    category: vt13sitepackage.socialicons
+    label: 'CSS klasse für Social Icon 2'
+    description: 'zB: bi-facebook, siehe https://icons.getbootstrap.com/'
+    type: string
+    default: 'bi-facebook'
+    enum:
+      'bi-twitter-x': 'Twitter/X'
+      'bi-facebook': 'Facebook'
+      'bi-instagram': 'Instagram'
+      'bi-linkedin': 'LinkedIn'
+      'bi-threads': 'Threads'
+      'bi-mastodon': 'Mastodon'
+      'bi-tiktok': 'Tiktok'
+      'bi-youtube': 'YouTube'
+      'bi-envelope-fill': 'Mail'
+  vt13sitepackage.socialicons.socialicon2.link:
+    category: vt13sitepackage.socialicons
+    label: 'Link zu Social Media Profil 2'
+    type: string
+    default: 'https://facebook.com/wwagner.net'
+  vt13sitepackage.socialicons.socialicon3.icon:
+    category: vt13sitepackage.socialicons
+    label: 'CSS klasse für Social Icon 3'
+    description: 'zB: bi-instagram, siehe https://icons.getbootstrap.com/'
+    type: string
+    default: 'bi-instagram'
+    enum:
+      'bi-twitter-x': 'Twitter/X'
+      'bi-facebook': 'Facebook'
+      'bi-instagram': 'Instagram'
+      'bi-linkedin': 'LinkedIn'
+      'bi-threads': 'Threads'
+      'bi-mastodon': 'Mastodon'
+      'bi-tiktok': 'Tiktok'
+      'bi-youtube': 'YouTube'
+      'bi-envelope-fill': 'Mail'
+  vt13sitepackage.socialicons.socialicon3.link:
+    category: vt13sitepackage.socialicons
+    label: 'Link zu Social Media Profil 3'
+    type: string
+    default: 'https://instagram.com/wolfgangwagner_fn'
+  vt13sitepackage.socialicons.socialicon4.icon:
+    category: vt13sitepackage.socialicons
+    label: 'CSS klasse für Social Icon 4'
+    description: 'zB: bi-linkedin, siehe https://icons.getbootstrap.com/'
+    type: string
+    default: 'bi-linkedin'
+    enum:
+      'bi-twitter-x': 'Twitter/X'
+      'bi-facebook': 'Facebook'
+      'bi-instagram': 'Instagram'
+      'bi-linkedin': 'LinkedIn'
+      'bi-threads': 'Threads'
+      'bi-mastodon': 'Mastodon'
+      'bi-tiktok': 'Tiktok'
+      'bi-youtube': 'YouTube'
+      'bi-envelope-fill': 'Mail'
+  vt13sitepackage.socialicons.socialicon4.link:
+    category: vt13sitepackage.socialicons
+    label: 'Link zu Social Media Profil 4'
+    type: string
+    default: 'https://www.linkedin.com/in/wolfgang-wagner-fn/'

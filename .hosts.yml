@@ -1,0 +1,6 @@
+hosts:
+  production:
+    hostname: ''
+    remote_user: ''
+    port: 22
+    deploy_path: ''

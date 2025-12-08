@@ -1,0 +1,19 @@
+TCEMAIN {
+  ## Standardgruppe für neue Seiten
+  permissions {
+    groupid = 1
+    user = show, editcontent, edit, delete, new
+    group = show, editcontent, edit, delete, new
+    everybody =
+  }
+  table {
+    tt_content {
+      #disableHideAtCopy = 1
+      #disablePrependAtCopy = 1
+    }
+    pages {
+      #disableHideAtCopy = 1
+      #disablePrependAtCopy = 1
+    }
+  }
+}

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" original="EXT:tstemplate/Resources/Private/Language/locallang_analyzer.xlf" date="2011-10-17T20:22:37Z" product-name="tstemplate" target-language="ar">
+    <header/>
+    <body>
+      <trans-unit id="submodule.title" resname="submodule.title" approved="yes">
+        <source>Included TypoScript</source>
+        <target state="final">الـ TypoScript المُضمّن</target>
+      </trans-unit>
+      <trans-unit id="submodule.titleWithRecord" resname="submodule.titleWithRecord" approved="yes">
+        <source>Included TypoScript for record "%s"</source>
+        <target state="final">تضمين TypoScript للسجل "%s"</target>
+      </trans-unit>
+      <trans-unit id="submodule.description" resname="submodule.description" approved="yes">
+        <source>Overview of the included TypoScript and include order for the current page.</source>
+        <target state="final">عرض عام لـ TypoScript المضمنة وإدراج ترتيب للصفحة الحالية.</target>
+      </trans-unit>
+      <trans-unit id="infobox.message.noTypoScriptFound" resname="infobox.message.noTypoScriptFound" approved="yes">
+        <source>No TypoScript found.</source>
+        <target state="final">لم يتم العثور على TypoScript.</target>
+      </trans-unit>
+      <trans-unit id="options.selectedRecord" resname="options.selectedRecord" approved="yes">
+        <source>Selected record</source>
+        <target state="final">السجل المُحدد</target>
+      </trans-unit>
+      <trans-unit id="sectionHeadline.constants" resname="sectionHeadline.constants" approved="yes">
+        <source>Constants</source>
+        <target state="final">الثوابت</target>
+      </trans-unit>
+      <trans-unit id="sectionHeadline.setup" resname="sectionHeadline.setup" approved="yes">
+        <source>Setup</source>
+        <target state="final">الإعداد</target>
+      </trans-unit>
+      <trans-unit id="panel.header.syntaxErrors" resname="panel.header.syntaxErrors" approved="yes">
+        <source>Syntax scanner warnings</source>
+        <target state="final">تحذيرات ضابط الصيغة</target>
+      </trans-unit>
+      <trans-unit id="panel.header.conditions" resname="panel.header.conditions" approved="yes">
+        <source>Conditions</source>
+        <target state="final">الشروط</target>
+      </trans-unit>
+      <trans-unit id="panel.header.configuration" resname="panel.header.configuration" approved="yes">
+        <source>Configuration</source>
+        <target state="final">التكوين</target>
+      </trans-unit>
+      <trans-unit id="panel.info.syntaxErrorCount.single" resname="panel.info.syntaxErrorCount.single" approved="yes">
+        <source>%s syntax warning</source>
+        <target state="final">تحذير بناء الجملة %s</target>
+      </trans-unit>
+      <trans-unit id="panel.info.syntaxErrorCount.multiple" resname="panel.info.syntaxErrorCount.multiple" approved="yes">
+        <source>%s syntax warnings</source>
+        <target state="final">%s تحذيرات بناء الجملة</target>
+      </trans-unit>
+      <trans-unit id="panel.info.conditionActiveCount.multiple" resname="panel.info.conditionActiveCount.multiple" approved="yes">
+        <source>%s active conditions</source>
+        <target state="final">%s من الشروط النَشِطَة</target>
+      </trans-unit>
+      <trans-unit id="panel.info.conditionActiveCount.single" resname="panel.info.conditionActiveCount.single" approved="yes">
+        <source>%s active condition</source>
+        <target state="final">%s حالة نشطة</target>
+      </trans-unit>
+      <trans-unit id="panel.info.conditionWithConstant" resname="panel.info.conditionWithConstant" approved="yes">
+        <source>Constant usage: [%s]</source>
+        <target state="final">الاستخدام الثابت: [%s]</target>
+      </trans-unit>
+      <trans-unit id="syntaxError.sourceCode" resname="syntaxError.sourceCode" approved="yes">
+        <source>Show affected code snippet</source>
+        <target state="final">إظهار قُصاصات الكود البرمجي</target>
+      </trans-unit>
+      <trans-unit id="syntaxError.type.line.invalid" resname="syntaxError.type.line.invalid" approved="yes">
+        <source>Invalid line in "%1$s", line number "%2$s"</source>
+        <target state="final">سطر غير صالح في "%1$s"، رقم السطر "%2$s"</target>
+      </trans-unit>
+      <trans-unit id="syntaxError.type.brace.excess" resname="syntaxError.type.brace.excess" approved="yes">
+        <source>Brace in excess in "%1$s", line number "%2$s"</source>
+        <target state="final">الدعامة الزائدة في "%1$s"، سطر رقم "%2$s"</target>
+      </trans-unit>
+      <trans-unit id="syntaxError.type.brace.missing" resname="syntaxError.type.brace.missing" approved="yes">
+        <source>Brace missing in "%1$s", line number "%2$s"</source>
+        <target state="final">الدعامة مفقودة في "%1$s"، سطر رَقَم "%2$s"</target>
+      </trans-unit>
+      <trans-unit id="syntaxError.type.import.empty" resname="syntaxError.type.import.empty" approved="yes">
+        <source>Import does not find a file in "%1$s", line number "%2$s"</source>
+        <target state="final">عملية الاستيراد لا تستطيع العثور على المِلَفّ في "%1$s"، رقم السطر "%2$s"</target>
+      </trans-unit>
+      <trans-unit id="tree.child.btn.sourceCode" resname="tree.child.btn.sourceCode" approved="yes">
+        <source>Show code</source>
+        <target state="final">إظهار الكود</target>
+      </trans-unit>
+      <trans-unit id="tree.child.btn.sourceCodeWithResolvedIncludes" resname="tree.child.btn.sourceCodeWithResolvedIncludes" approved="yes">
+        <source>Show code including possible includes/imports</source>
+        <target state="final">إظهار الكود بما في ذلك includes/imports المحتملة</target>
+      </trans-unit>
+      <trans-unit id="tree.child.conditionVerdict.matched" resname="tree.child.conditionVerdict.matched" approved="yes">
+        <source>Matched</source>
+        <target state="final">متطابق</target>
+      </trans-unit>
+      <trans-unit id="tree.child.conditionVerdict.notMatched" resname="tree.child.conditionVerdict.notMatched" approved="yes">
+        <source>Not matched</source>
+        <target state="final">غير متطابق</target>
+      </trans-unit>
+      <trans-unit id="tree.child.setting.clear" resname="tree.child.setting.clear" approved="yes">
+        <source>Clear</source>
+        <target state="final">مسح</target>
+      </trans-unit>
+      <trans-unit id="tree.child.setting.root" resname="tree.child.setting.root" approved="yes">
+        <source>Root</source>
+        <target state="final">الجذر</target>
+      </trans-unit>
+      <trans-unit id="tree.child.sysTemplateRecord" resname="tree.child.sysTemplateRecord" approved="yes">
+        <source>TypoScript record (page UID %s)</source>
+        <target state="final">سجل TypoScript (صفحة UID %s)</target>
+      </trans-unit>
+      <trans-unit id="tree.child.type.AtImport" resname="tree.child.type.AtImport" approved="yes">
+        <source>Included via "@import"</source>
+        <target state="final">تم تضمينها عبر "@import"</target>
+      </trans-unit>
+      <trans-unit id="tree.child.type.Condition" resname="tree.child.type.Condition" approved="yes">
+        <source>Condition (then)</source>
+        <target state="final">الشرط (then)</target>
+      </trans-unit>
+      <trans-unit id="tree.child.type.ConditionElse" resname="tree.child.type.ConditionElse" approved="yes">
+        <source>Condition (else)</source>
+        <target state="final">الشرط (else)</target>
+      </trans-unit>
+      <trans-unit id="tree.child.type.ConditionIncludeTyposcript" resname="tree.child.type.ConditionIncludeTyposcript" approved="yes">
+        <source>Included via "INCLUDE_TYPOSCRIPT" (with condition)</source>
+        <target state="final">تم تضمينها عبر "INCLUDE_TYPOSCRIPT" (مع الشرط)</target>
+      </trans-unit>
+      <trans-unit id="tree.child.type.ConditionStop" resname="tree.child.type.ConditionStop" approved="yes">
+        <source>Condition (end)</source>
+        <target state="final">الشرط (end)</target>
+      </trans-unit>
+      <trans-unit id="tree.child.type.DefaultTypoScript" resname="tree.child.type.DefaultTypoScript" approved="yes">
+        <source>Included via "$GLOBALS"</source>
+        <target state="final">تم تضمينها عبر "$GLOBALS"</target>
+      </trans-unit>
+      <trans-unit id="tree.child.type.DefaultTypoScriptMagicKey" resname="tree.child.type.DefaultTypoScriptMagicKey" approved="yes">
+        <source>Included via "$GLOBALS"</source>
+        <target state="final">تم تضمينها عبر "$GLOBALS"</target>
+      </trans-unit>
+      <trans-unit id="tree.child.type.DefaultTypoScriptMagicKey_formlabel" resname="tree.child.type.DefaultTypoScriptMagicKey_formlabel" approved="yes">
+        <source>Default content rendering</source>
+        <target state="final">عرض المحتوى الافتراضي</target>
+      </trans-unit>
+      <trans-unit id="tree.child.type.ExtensionStatic" resname="tree.child.type.ExtensionStatic" approved="yes">
+        <source>TypoScript set (loaded automatically)</source>
+        <target state="final">مجموعة TypoScript (يتم تحميلها تلقائياً)</target>
+      </trans-unit>
+      <trans-unit id="tree.child.type.File" resname="tree.child.type.File" approved="yes">
+        <source>Part of a TypoScript set</source>
+        <target state="final">جزء من مجموعة TypoScript</target>
+      </trans-unit>
+      <trans-unit id="tree.child.type.IncludeStaticFileDatabase" resname="tree.child.type.IncludeStaticFileDatabase" approved="yes">
+        <source>TypoScript set</source>
+        <target state="final">إعداد TypoScript</target>
+      </trans-unit>
+      <trans-unit id="tree.child.type.IncludeStaticFileFile" resname="tree.child.type.IncludeStaticFileFile" approved="yes">
+        <source>TypoScript set (included via file)</source>
+        <target state="final">مجموعة TypoScript (مضمنة عبر الملف)</target>
+      </trans-unit>
+      <trans-unit id="tree.child.type.IncludeTyposcript" resname="tree.child.type.IncludeTyposcript" approved="yes">
+        <source>Included via "INCLUDE_TYPOSCRIPT"</source>
+        <target state="final">تم تضمينها عبر "INCLUDE_TYPOSCRIPT"</target>
+      </trans-unit>
+      <trans-unit id="tree.child.type.Root" resname="tree.child.type.Root" approved="yes">
+        <source>Root</source>
+        <target state="final">الجذر</target>
+      </trans-unit>
+      <trans-unit id="tree.child.type.Segment" resname="tree.child.type.Segment" approved="yes">
+        <source>Code segment</source>
+        <target state="final">جزء من الكود</target>
+      </trans-unit>
+      <trans-unit id="tree.child.type.Site" resname="tree.child.type.Site" approved="yes">
+        <source>Site</source>
+        <target state="final">الموقع</target>
+      </trans-unit>
+      <trans-unit id="tree.child.type.SiteTemplate" resname="tree.child.type.SiteTemplate" approved="yes">
+        <source>Site configuration</source>
+        <target state="final">تكوين الموقع</target>
+      </trans-unit>
+      <trans-unit id="tree.child.type.SysTemplate" resname="tree.child.type.SysTemplate" approved="yes">
+        <source>TypoScript record</source>
+        <target state="final">سجلات TypoScript</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

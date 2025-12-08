@@ -1,0 +1,19 @@
+name: wwagner/cta
+typeName: wwagner_cta
+group: default
+prefixFields: false
+prefixType: full
+basics:
+  - TYPO3/Categories
+fields:
+  - identifier: header
+    useExistingField: true
+  - identifier: bodytext
+    useExistingField: true
+    enableRichtext: true
+  - identifier: header_link
+    useExistingField: true
+    label: 'CTA Link'
+  - identifier: subheader
+    useExistingField: true
+    label: 'Button Text'

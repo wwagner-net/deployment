@@ -1,0 +1,24 @@
+.DS_Store
+.idea
+.vscode
+/var/*
+!/var/labels
+/vendor
+/public/*
+!/public/.htaccess
+!/config/system/settings.php
+/config/system/additional.php
+*.gz
+*.cache
+database.sql
+db.sql
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/

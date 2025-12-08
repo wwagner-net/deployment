@@ -1,0 +1,6 @@
+<f:asset.css identifier="content-block-wwagner-wwagner/about-be" href="{cb:assetPath()}/preview.css"/>
+
+<f:for each="{data.tabs}" as="item">
+	<strong>{item.title}</strong><br>
+	{item.subheader -> f:format.crop(maxCharacters: '100')}<br>
+</f:for>

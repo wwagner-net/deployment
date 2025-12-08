@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" original="EXT:opendocs/Resources/Private/Language/locallang.xlf" date="2011-10-17T20:22:34Z" product-name="opendocs" target-language="ar">
+    <header/>
+    <body>
+      <trans-unit id="toolbarItems.headline" resname="toolbarItems.headline" approved="yes">
+        <source>Open and recently used documents</source>
+        <target state="final">الوثائق المَفتوحة والمُستخدمة مُؤخراً</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.openDocuments.headline" resname="toolbarItems.openDocuments.headline" approved="yes">
+        <source>Open documents</source>
+        <target state="final">فتح المستندات</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.openDocuments.emptyList" resname="toolbarItems.openDocuments.emptyList" approved="yes">
+        <source>There are currently no open documents.</source>
+        <target state="final">لا يوجد حاليّاً أية وثائق مفتوحة.</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.recentDocuments.headline" resname="toolbarItems.recentDocuments.headline" approved="yes">
+        <source>Recently used documents</source>
+        <target state="final">الوثائق المُستخدمة مُؤخراً</target>
+      </trans-unit>
+      <trans-unit id="toolbarItems.recentDocuments.emptyList" resname="toolbarItems.recentDocuments.emptyList" approved="yes">
+        <source>No documents were used recently.</source>
+        <target state="final">لم يتم استخدام أية وثائق مؤخراً.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

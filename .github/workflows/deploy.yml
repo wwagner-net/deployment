@@ -1,0 +1,46 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: production
+      cancel-in-progress: false
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Install PHP and Composer
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.4'
+          extensions: mbstring, intl
+
+      - name: Install Deployer
+        run: |
+          composer global require deployer/deployer
+          export PATH="$HOME/.composer/vendor/bin:$PATH"
+
+      - name: SSH-Agent starten und Schlüssel hinzufügen
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: SSH konfigurieren
+        run: |
+          mkdir -p ~/.ssh
+          ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+          chmod 644 ~/.ssh/known_hosts
+
+      - name: Abhängigkeiten installieren
+        run: |
+          composer install --no-dev --no-ansi --no-interaction --no-scripts --prefer-dist --ignore-platform-reqs
+
+      - name: Deployment auf Produktion
+        run: |
+          dep deploy production -vvv

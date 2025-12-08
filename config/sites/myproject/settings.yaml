@@ -1,0 +1,6 @@
+vt13sitepackage:
+  buttonLink: videotraining@wwagner.net
+  buttonText: 'Schreib mir ne Mail'
+  useaos: true
+  search:
+    rootPidList: '1'

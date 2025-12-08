@@ -1,0 +1,9 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<picture>
+	<source srcset="{f:uri.image(image: file, width: '1600', cropVariant: 'default')}" media="(min-width: 1280px)">
+	<source srcset="{f:uri.image(image: file, width: '1280', cropVariant: 'desktop')}" media="(min-width: 768px)">
+	<source srcset="{f:uri.image(image: file, width: '768', cropVariant: 'tablet')}" media="(min-width: 600px)">
+	<source srcset="{f:uri.image(image: file, width: '600', cropVariant: 'smartphone')}">
+	<f:media class="image-embed-item img-fluid" file="{file}" width="{dimensions.width}" height="{dimensions.height}" alt="{file.alternative}" title="{file.title}" cropVariant="desktop" loading="{settings.media.lazyLoading}" decoding="{settings.media.imageDecoding}"/>
+</picture>
+</html>

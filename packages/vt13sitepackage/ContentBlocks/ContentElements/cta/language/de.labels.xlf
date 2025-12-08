@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file datatype="plaintext" original="labels.xlf" source-language="en" target-language="de" date="2024-10-19T14:10:52+00:00" product-name="wwagner/cta">
+		<header/>
+		<body>
+			<trans-unit id="title" resname="title">
+				<source>Call to action</source>
+				<target>Handlungsaufforderung</target>
+			</trans-unit>
+			<trans-unit id="description" resname="description">
+				<source>Call to action area</source>
+				<target>Bereich für Handlungsaufforderung</target>
+			</trans-unit>
+			<trans-unit id="header_link.label" resname="header_link.label">
+				<source>CTA Link</source>
+				<target>Handlungsaufforderungs-Link</target>
+			</trans-unit>
+			<trans-unit id="subheader.label" resname="subheader.label">
+				<source>Button Text</source>
+				<target>Schaltflächentext</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

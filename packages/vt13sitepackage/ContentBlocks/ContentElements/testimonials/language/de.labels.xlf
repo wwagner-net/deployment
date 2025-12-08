@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file datatype="plaintext" original="labels.xlf" source-language="en" target-language="de" date="2024-10-19T18:13:32+00:00" product-name="wwagner/testimonials">
+		<header/>
+		<body>
+			<trans-unit id="title" resname="title">
+				<source>Testimonials</source>
+				<target>Kundenstimmen</target>
+			</trans-unit>
+			<trans-unit id="description" resname="description">
+				<source>Testimonial slider with name, position, photo, rating and a quote.</source>
+				<target>Kundenstimmen-Slider mit Name, Position, Foto, Bewertung und Zitat.</target>
+			</trans-unit>
+			<trans-unit id="header.label" resname="header.label">
+				<source>Element name (not visible in frontend)</source>
+				<target>Elementname (im Frontend nicht sichtbar)</target>
+			</trans-unit>
+			<trans-unit id="testimonials.label" resname="testimonials.label">
+				<source>Testimonials</source>
+				<target>Kundenstimmen</target>
+			</trans-unit>
+			<trans-unit id="testimonials.header.label" resname="testimonials.header.label">
+				<source>Name of the person</source>
+				<target>Name der Person</target>
+			</trans-unit>
+			<trans-unit id="testimonials.subheader.label" resname="testimonials.subheader.label">
+				<source>Position or company of the person</source>
+				<target>Position oder Unternehmen der Person</target>
+			</trans-unit>
+			<trans-unit id="testimonials.image.label" resname="testimonials.image.label">
+				<source>Image of the person</source>
+				<target>Bild der Person</target>
+			</trans-unit>
+			<trans-unit id="testimonials.rating.label" resname="testimonials.rating.label">
+				<source>Rating (0-5 stars)</source>
+				<target>Bewertung (0-5 Sterne)</target>
+			</trans-unit>
+			<trans-unit id="testimonials.rating.items.0.label" resname="testimonials.rating.items.0.label">
+				<source>0 stars</source>
+				<target>0 Sterne</target>
+			</trans-unit>
+			<trans-unit id="testimonials.rating.items.1.label" resname="testimonials.rating.items.1.label">
+				<source>1 star</source>
+				<target>1 Stern</target>
+			</trans-unit>
+			<trans-unit id="testimonials.rating.items.2.label" resname="testimonials.rating.items.2.label">
+				<source>2 stars</source>
+				<target>2 Sterne</target>
+			</trans-unit>
+			<trans-unit id="testimonials.rating.items.3.label" resname="testimonials.rating.items.3.label">
+				<source>3 stars</source>
+				<target>3 Sterne</target>
+			</trans-unit>
+			<trans-unit id="testimonials.rating.items.4.label" resname="testimonials.rating.items.4.label">
+				<source>4 stars</source>
+				<target>4 Sterne</target>
+			</trans-unit>
+			<trans-unit id="testimonials.rating.items.5.label" resname="testimonials.rating.items.5.label">
+				<source>5 stars</source>
+				<target>5 Sterne</target>
+			</trans-unit>
+			<trans-unit id="testimonials.bodytext.label" resname="testimonials.bodytext.label">
+				<source>Quote</source>
+				<target>Zitat</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

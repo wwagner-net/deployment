@@ -1,0 +1,12 @@
+## https://docs.typo3.org/m/typo3/reference-coreapi/main/en-us/ApiOverview/SiteHandling/SiteSets.html
+name: wwagner/vt13sitepackage
+label: Sitepackage for TYPO3 13
+
+## Load TypoScript, TSconfig and settings from dependencies
+dependencies:
+  - typo3/fluid-styled-content
+  - typo3/fluid-styled-content-css
+  - typo3/felogin
+  - typo3/seo-sitemap
+  - typo3/indexed-search
+  - typo3/form

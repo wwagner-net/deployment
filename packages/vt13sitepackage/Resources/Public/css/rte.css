@@ -1,0 +1,22 @@
+/* Checkliste */
+ul.list-check {
+  padding-left: 0;
+  list-style-type: none;
+}
+ul.list-check .ck-list-bogus-paragraph {
+  display: inline;
+}
+ul.list-check li:before {
+  display: inline-block;
+  font-family: bootstrap-icons !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -.125em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f272";
+  margin-right: 5px;
+}

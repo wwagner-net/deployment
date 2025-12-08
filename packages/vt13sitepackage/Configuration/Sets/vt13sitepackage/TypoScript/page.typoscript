@@ -1,0 +1,86 @@
+page = PAGE
+
+page {
+
+  bodyTagCObject = TEXT
+  bodyTagCObject.dataWrap = <body id="uid{field:uid}" class="pid{field:pid}">
+
+  meta {
+    viewport = width=device-width, initial-scale=1.0
+  }
+
+  headerData {
+    10 = TEXT
+    10.value (
+      <link href="{path:EXT:vt13sitepackage/Resources/Public/img/favicon.png}" rel="icon">
+      <link href="{path:EXT:vt13sitepackage/Resources/Public/img/apple-touch-icon.png}" rel="apple-touch-icon">
+    )
+    10.insertData = 1
+  }
+
+  includeCSS {
+    bootstrap = EXT:vt13sitepackage/Resources/Public/vendor/bootstrap/css/bootstrap.min.css
+    bootstrap.disableCompression = 1
+    bootstrap-icons = EXT:vt13sitepackage/Resources/Public/vendor/bootstrap-icons/bootstrap-icons.css
+    aos = EXT:vt13sitepackage/Resources/Public/vendor/aos/aos.css
+    swiper = EXT:vt13sitepackage/Resources/Public/vendor/swiper/swiper-bundle.min.css
+    swiper.disableCompression = 1
+    glightbox = EXT:vt13sitepackage/Resources/Public/vendor/glightbox/css/glightbox.min.css
+    glightbox.disableCompression = 1
+    main = EXT:vt13sitepackage/Resources/Public/css/main.css
+  }
+
+  includeJSFooter {
+    boostrap = EXT:vt13sitepackage/Resources/Public/vendor/bootstrap/js/bootstrap.bundle.min.js
+    boostrap.disableCompression = 1
+    aos = EXT:vt13sitepackage/Resources/Public/vendor/aos/aos.js
+    purecounter = EXT:vt13sitepackage/Resources/Public/vendor/purecounter/purecounter_vanilla.js
+    waypoints = EXT:vt13sitepackage/Resources/Public/vendor/waypoints/noframework.waypoints.js
+    swiper = EXT:vt13sitepackage/Resources/Public/vendor/swiper/swiper-bundle.min.js
+    swiper.disableCompression = 1
+    glightbox = EXT:vt13sitepackage/Resources/Public/vendor/glightbox/js/glightbox.min.js
+    glightbox.disableCompression = 1
+    imagesloaded = EXT:vt13sitepackage/Resources/Public/vendor/imagesloaded/imagesloaded.pkgd.min.js
+    imagesloaded.disableCompression = 1
+    isotope = EXT:vt13sitepackage/Resources/Public/vendor/isotope-layout/isotope.pkgd.min.js
+    isotope.disableCompression = 1
+    main = EXT:vt13sitepackage/Resources/Public/js/main.js
+  }
+
+  10 = PAGEVIEW
+  10 {
+    paths {
+      100 = EXT:vt13sitepackage/Resources/Private/Templates/
+    }
+    dataProcessing.1 = page-content
+
+    /*
+    variables {
+      content0 = CONTENT
+      content0 {
+        table = tt_content
+        select {
+          where = {#colPos} = 0
+          orderBy = sorting
+        }
+      }
+
+      content1 < .content0
+      content1.select.where = {#colPos} = 1
+
+      content2 < .content0
+      content2.select.where = {#colPos} = 2
+      content2.slide = -1
+      #content2.slide.collect = -1
+
+      content3 < .content0
+      content3.select.where = {#colPos} = 3
+      content3.slide = -1
+
+      content4 < .content0
+      content4.select.where = {#colPos} = 4
+      content4.slide = -1
+    }
+    */
+  }
+}

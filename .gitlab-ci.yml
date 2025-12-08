@@ -1,0 +1,36 @@
+stages:
+  - deploy
+
+
+deploy:
+stage: deploy
+image: php:8.4-cli
+before_script:
+  # Installing necessary tools and dependencies
+  - apt-get update && apt-get install -y git unzip libzip-dev libicu-dev libonig-dev rsync openssh-client
+
+  # Installing and activating PHP extensions
+  - docker-php-ext-install mbstring intl zip
+
+  # Installing Composer
+  - curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+
+  # Installing Deployer
+  - composer global require deployer/deployer
+
+  # SSH-Setup
+  - eval $(ssh-agent -s)
+  - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+  - mkdir -p ~/.ssh
+  - ssh-keyscan -H $SSH_HOST >> ~/.ssh/known_hosts
+  - chmod 644 ~/.ssh/known_hosts
+
+  # Deactivating the strict host key check
+  #- echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+
+script:
+  - composer install --no-dev --no-ansi --no-interaction --no-scripts --prefer-dist --ignore-platform-reqs
+  - ~/.composer/vendor/bin/dep deploy production -vvv
+resource_group: production
+only:
+  - main

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file datatype="plaintext" original="labels.xlf" source-language="en" target-language="de" date="2024-10-19T13:32:32+00:00" product-name="wwagner/about">
+		<header/>
+		<body>
+			<trans-unit id="title" resname="title">
+				<source>About Section</source>
+				<target>Über uns-Bereich</target>
+			</trans-unit>
+			<trans-unit id="description" resname="description">
+				<source>About section with multiple tabs.</source>
+				<target>Über uns-Bereich mit mehreren Registerkarten.</target>
+			</trans-unit>
+			<trans-unit id="image.label" resname="image.label">
+				<source>Image</source>
+				<target>Bild</target>
+			</trans-unit>
+			<trans-unit id="tabs.label" resname="tabs.label">
+				<source>About sections</source>
+				<target>Über uns-Abschnitte</target>
+			</trans-unit>
+			<trans-unit id="tabs.title.label" resname="tabs.title.label">
+				<source>Section header</source>
+				<target>Abschnittsüberschrift</target>
+			</trans-unit>
+			<trans-unit id="tabs.subheader.label" resname="tabs.subheader.label">
+				<source>Subheader</source>
+				<target>Unterüberschrift</target>
+			</trans-unit>
+			<trans-unit id="tabs.bodytext.label" resname="tabs.bodytext.label">
+				<source>Section content</source>
+				<target>Abschnittsinhalt</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

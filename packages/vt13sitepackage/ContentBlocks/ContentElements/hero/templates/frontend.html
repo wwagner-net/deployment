@@ -1,0 +1,16 @@
+<div id="hero" class="hero section dark-background">
+	<img src="{f:uri.image(image: data.image.0, width: 1800)}" alt="" data-aos="fade-in">
+
+	<div class="container text-center" data-aos="zoom-out" data-aos-delay="100">
+		<div class="row justify-content-center">
+			<div class="col-lg-8">
+				<h2>{data.header}</h2>
+				<f:format.html parseFuncTSPath="lib.parseFunc_RTE">{data.bodytext}</f:format.html>
+				<f:link.typolink class="btn-get-started" parameter="{data.header_link}">
+					{data.button_text}
+				</f:link.typolink>
+			</div>
+		</div>
+	</div>
+
+</div>

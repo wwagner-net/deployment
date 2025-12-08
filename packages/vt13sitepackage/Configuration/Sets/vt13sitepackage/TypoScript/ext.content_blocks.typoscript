@@ -1,0 +1,12 @@
+lib.contentBlock {
+  layoutRootPaths {
+    0 = EXT:fluid_styled_content/Resources/Private/Layouts/
+    100 = EXT:vt13sitepackage/Resources/Private/Extensions/fluid_styled_content/Layouts/
+  }
+  partialRootPaths {
+    0 < lib.contentElement.partialRootPaths.0
+    100 = EXT:vt13sitepackage/Resources/Private/Extensions/fluid_styled_content/Partials/
+  }
+
+  settings < lib.contentElement.settings
+}

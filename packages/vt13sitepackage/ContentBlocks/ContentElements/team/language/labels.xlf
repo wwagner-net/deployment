@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file datatype="plaintext" original="labels.xlf" source-language="en" date="2024-10-19T14:51:13+00:00" product-name="wwagner/team">
+		<header/>
+		<body>
+			<trans-unit id="title" resname="title">
+				<source>Team</source>
+			</trans-unit>
+			<trans-unit id="description" resname="description">
+				<source>Team photos</source>
+			</trans-unit>
+			<trans-unit id="header.label" resname="header.label">
+				<source>Name (not visible in frontend)</source>
+			</trans-unit>
+			<trans-unit id="members.label" resname="members.label">
+				<source>Team members</source>
+			</trans-unit>
+			<trans-unit id="members.header.label" resname="members.header.label">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="members.subheader.label" resname="members.subheader.label">
+				<source>Position (CEO,CTO etc.)</source>
+			</trans-unit>
+			<trans-unit id="members.image.label" resname="members.image.label">
+				<source>Image of team member</source>
+			</trans-unit>
+			<trans-unit id="members.icons.label" resname="members.icons.label">
+				<source>Contact and Social Media Icons</source>
+			</trans-unit>
+			<trans-unit id="members.icons.icon.label" resname="members.icons.icon.label">
+				<source>Icon</source>
+			</trans-unit>
+			<trans-unit id="members.icons.icon.items.bi-facebook.label" resname="members.icons.icon.items.bi-facebook.label">
+				<source>Facebook</source>
+			</trans-unit>
+			<trans-unit id="members.icons.icon.items.bi-twitter-x.label" resname="members.icons.icon.items.bi-twitter-x.label">
+				<source>Twitter/X</source>
+			</trans-unit>
+			<trans-unit id="members.icons.icon.items.bi-linkedin.label" resname="members.icons.icon.items.bi-linkedin.label">
+				<source>LinkedIn</source>
+			</trans-unit>
+			<trans-unit id="members.icons.icon.items.bi-instagram.label" resname="members.icons.icon.items.bi-instagram.label">
+				<source>Instagram</source>
+			</trans-unit>
+			<trans-unit id="members.icons.icon.items.bi-youtube.label" resname="members.icons.icon.items.bi-youtube.label">
+				<source>YouTube</source>
+			</trans-unit>
+			<trans-unit id="members.icons.icon.items.bi-github.label" resname="members.icons.icon.items.bi-github.label">
+				<source>GitHub</source>
+			</trans-unit>
+			<trans-unit id="members.icons.icon.items.bi-discord.label" resname="members.icons.icon.items.bi-discord.label">
+				<source>Discord</source>
+			</trans-unit>
+			<trans-unit id="members.icons.icon.items.bi-whatsapp.label" resname="members.icons.icon.items.bi-whatsapp.label">
+				<source>WhatsApp</source>
+			</trans-unit>
+			<trans-unit id="members.icons.icon.items.bi-telegram.label" resname="members.icons.icon.items.bi-telegram.label">
+				<source>Telegram</source>
+			</trans-unit>
+			<trans-unit id="members.icons.icon.items.bi-globe.label" resname="members.icons.icon.items.bi-globe.label">
+				<source>Website</source>
+			</trans-unit>
+			<trans-unit id="members.icons.icon.items.bi-envelope.label" resname="members.icons.icon.items.bi-envelope.label">
+				<source>E-Mail</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

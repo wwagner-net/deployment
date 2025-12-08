@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" original="EXT:linkvalidator/Resources/Private/Language/Module/locallang.xlf" date="2011-10-17T20:22:34Z" product-name="linkvalidator" target-language="ar">
+    <header/>
+    <body>
+      <trans-unit id="linkvalidator" resname="linkvalidator" approved="yes">
+        <source>LinkValidator</source>
+        <target state="final">مُدقق الروابط</target>
+      </trans-unit>
+      <trans-unit id="hooks.db" resname="hooks.db" approved="yes">
+        <source>Internal Links</source>
+        <target state="final">الروابط الداخلية</target>
+      </trans-unit>
+      <trans-unit id="hooks.file" resname="hooks.file" approved="yes">
+        <source>File Links</source>
+        <target state="final">ملفات للتحميل "File Links"</target>
+      </trans-unit>
+      <trans-unit id="hooks.external" resname="hooks.external" approved="yes">
+        <source>External Links</source>
+        <target state="final">الروابط الخارجية</target>
+      </trans-unit>
+      <trans-unit id="label_refresh" resname="label_refresh" approved="yes">
+        <source>Refresh display</source>
+        <target state="final">تحديث العرض</target>
+      </trans-unit>
+      <trans-unit id="label_update" resname="label_update" approved="yes">
+        <source>Check links</source>
+        <target state="final">التحقق من الروابط</target>
+      </trans-unit>
+      <trans-unit id="list.header" resname="list.header" approved="yes">
+        <source>Listing of broken links</source>
+        <target state="final">قائمة بالروابط الناقصة</target>
+      </trans-unit>
+      <trans-unit id="list.tableHead.lastCheck" resname="list.tableHead.lastCheck" approved="yes">
+        <source>Last check</source>
+        <target state="final">آخر تحقق</target>
+      </trans-unit>
+      <trans-unit id="list.report.noinformation" resname="list.report.noinformation" approved="yes">
+        <source>No information about the error is available.</source>
+        <target state="final">لا توجد معلومات مُتاحة حول الخطأ.</target>
+      </trans-unit>
+      <trans-unit id="list.report.redirectloop" resname="list.report.redirectloop" approved="yes">
+        <source>A redirect loop occurred. (%s: %s)</source>
+        <target state="final">تم إعادة توجيه الحلقة (%s: %s)</target>
+      </trans-unit>
+      <trans-unit id="list.report.tooManyRedirects" resname="list.report.tooManyRedirects" approved="yes">
+        <source>Too many redirects.</source>
+        <target state="final">هناك عمليات إعادة توجيه كثيرة جداً.</target>
+      </trans-unit>
+      <trans-unit id="list.report.filenotexisting" resname="list.report.filenotexisting" approved="yes">
+        <source>File doesn't exist.</source>
+        <target state="final">الملف غير موجود.</target>
+      </trans-unit>
+      <!-- external linktype check errors -->
+      <trans-unit id="linkcheck.error.external.generic" resname="linkcheck.error.external.generic" approved="yes">
+        <source>External link is broken.</source>
+        <target state="final">الرابط الخارجي ناقص.</target>
+      </trans-unit>
+      <trans-unit id="list.report.couldnotresolvehost" resname="list.report.couldnotresolvehost" approved="yes">
+        <source>Could not resolve host. The given remote host was not resolved.</source>
+        <target state="final">تعذّر حل المضيف. المضيف البعيد المعطى لم يتم حله.</target>
+      </trans-unit>
+      <trans-unit id="list.report.errornetworkdata" resname="list.report.errornetworkdata" approved="yes">
+        <source>Failure with receiving network data.</source>
+        <target state="final">فشل في تلقي بيانات الشبكة.</target>
+      </trans-unit>
+      <trans-unit id="list.report.otherhttpcode" resname="list.report.otherhttpcode" approved="yes">
+        <source>An error occurred (%s): "%s".</source>
+        <target state="final">حدث خطأ ما (%s): "%s".</target>
+      </trans-unit>
+      <trans-unit id="list.report.httpexception" resname="list.report.httpexception" approved="yes">
+        <source>Exception: %s</source>
+        <target state="final">استثناء: %s</target>
+      </trans-unit>
+      <trans-unit id="list.report.networkexception" resname="list.report.networkexception" approved="yes">
+        <source>Network error / invalid domain</source>
+        <target state="final">خطأ في الشبكة / نطاق غير صالح</target>
+      </trans-unit>
+      <!-- HTTP status code error messages -->
+      <trans-unit id="list.report.error.httpstatuscode.300" resname="list.report.error.httpstatuscode.300" approved="yes">
+        <source>Multiple Choices (300).</source>
+        <target state="final">خيارات مُتعددة (300).</target>
+      </trans-unit>
+      <trans-unit id="list.report.error.httpstatuscode.305" resname="list.report.error.httpstatuscode.305" approved="yes">
+        <source>Use proxy (305).</source>
+        <target state="final">(305) استخدام الوَكيل "proxy".</target>
+      </trans-unit>
+      <trans-unit id="list.report.pageforbidden403" resname="list.report.pageforbidden403" approved="yes">
+        <source>Accessing this address is not allowed (403).</source>
+        <target state="final">غير مسموح بالوصول إلى هذا العنوان (403).</target>
+      </trans-unit>
+      <trans-unit id="list.report.internalerror500" resname="list.report.internalerror500" approved="yes">
+        <source>Internal Server Error (500)</source>
+        <target state="final">خطأ داخلي في الخادم (500)</target>
+      </trans-unit>
+      <trans-unit id="list.report.externalerror" resname="list.report.externalerror" approved="yes">
+        <source>External Link returned HTTP error code (%s).</source>
+        <target state="final">الرابط الخارجي أعاد رمز HTTP خاطئ (%s).</target>
+      </trans-unit>
+      <!-- libcurl error messages from https://curl.haxx.se/libcurl/c/libcurl-errors.html -->
+      <!-- ignoring various FTP errors here: 10 - 15, 17, 19  and other error that are unlikely -->
+      <trans-unit id="list.report.error.libcurl.1" resname="list.report.networkexception" approved="yes">
+        <source>Unsupported protocol.</source>
+        <target state="final">بروتوكول غير مدعوم.</target>
+      </trans-unit>
+      <trans-unit id="list.report.error.libcurl.2" resname="list.report.networkexception" approved="yes">
+        <source>Initialization failed.</source>
+        <target state="final">فشلت التهيئة.</target>
+      </trans-unit>
+      <trans-unit id="list.report.error.libcurl.3" resname="list.report.networkexception" approved="yes">
+        <source>The URL was not properly formatted.</source>
+        <target state="final">لم يتم تنسيق عنوان URL بشكل صحيح.</target>
+      </trans-unit>
+      <trans-unit id="list.report.error.libcurl.4" resname="list.report.networkexception" approved="yes">
+        <source>Feature not supported.</source>
+        <target state="final">المِيزة غير مدعومة.</target>
+      </trans-unit>
+      <trans-unit id="list.report.error.libcurl.5" resname="list.report.networkexception" approved="yes">
+        <source>Couldn't resolve proxy.</source>
+        <target state="final">تعذر حل الوَكيل "proxy".</target>
+      </trans-unit>
+      <trans-unit id="list.report.error.libcurl.6" resname="list.report.networkexception" approved="yes">
+        <source>Couldn't resolve host.</source>
+        <target state="final">تعذر حل المُضيف.</target>
+      </trans-unit>
+      <trans-unit id="list.report.error.libcurl.7" resname="list.report.networkexception" approved="yes">
+        <source>Failed to connect to host or proxy.</source>
+        <target state="final">فشل الاتصال بالمضيف أو الوَكيل "proxy".</target>
+      </trans-unit>
+      <trans-unit id="list.report.error.libcurl.8" resname="list.report.networkexception" approved="yes">
+        <source>The remote server sent data that could not be parsed.</source>
+        <target state="final">أرسل الخادم البعيد بيانات لا يمكن تحليلها.</target>
+      </trans-unit>
+      <trans-unit id="list.report.error.libcurl.9" resname="list.report.networkexception" approved="yes">
+        <source>Access denied.</source>
+        <target state="final">غير مسموح لك بالوُصول.</target>
+      </trans-unit>
+      <trans-unit id="list.report.error.libcurl.16" resname="list.report.networkexception" approved="yes">
+        <source>Generic HTTP/2 error.</source>
+        <target state="final">خطأ عام في HTTP/2.</target>
+      </trans-unit>
+      <trans-unit id="list.report.error.libcurl.18" resname="list.report.networkexception" approved="yes">
+        <source>A file transfer was shorter or larger than expected.</source>
+        <target state="final">كان نقل المِلَفّ أقصر أو أطول مما كان متوقّعاً.</target>
+      </trans-unit>
+      <trans-unit id="list.report.error.libcurl.28" resname="list.report.networkexception" approved="yes">
+        <source>Timeout: The remote server possibly took too long to answer.</source>
+        <target state="final">نفِذ الوقت: ربما استغرق الخادم البعيد وقتاً طويلاً للاستجابة.</target>
+      </trans-unit>
+      <trans-unit id="list.report.error.libcurl.35" resname="list.report.networkexception" approved="yes">
+        <source>Problem with SSl / TLS handshake.</source>
+        <target state="final">يوجد مشكلة في إنشاء الاتصال SSl / TLS.</target>
+      </trans-unit>
+      <trans-unit id="list.report.error.libcurl.47" resname="list.report.networkexception" approved="yes">
+        <source>Too many redirects.</source>
+        <target state="final">هناك عمليات إعادة توجيه كثيرة جداً.</target>
+      </trans-unit>
+      <trans-unit id="list.report.error.libcurl.55" resname="list.report.networkexception" approved="yes">
+        <source>General network error. Send failed.</source>
+        <target state="final">خطأ عام في الشبكة. فشل الإرسال.</target>
+      </trans-unit>
+      <trans-unit id="list.report.error.libcurl.56" resname="list.report.networkexception" approved="yes">
+        <source>General network error. Receive failed.</source>
+        <target state="final">خطأ عام في الشبكة. فشل الاستلام.</target>
+      </trans-unit>
+      <trans-unit id="list.report.error.libcurl.60" resname="list.report.networkexception" approved="yes">
+        <source>The remote server's SSL certificate was deemed not OK.</source>
+        <target state="final">تم اعتبار شهادة الخادم البعيد SSL غير صالحة.</target>
+      </trans-unit>
+      <trans-unit id="list.report.error.libcurl.63" resname="list.report.networkexception" approved="yes">
+        <source>Maximum file size exceeded.</source>
+        <target state="final">تم تجاوز الحجم الأقصى للملف.</target>
+      </trans-unit>
+      <trans-unit id="list.msg.ok" resname="list.msg.ok" approved="yes">
+        <source>Ok</source>
+        <target state="final">حسناً</target>
+      </trans-unit>
+      <trans-unit id="list.msg.lastRun" resname="list.msg.lastRun" approved="yes">
+        <source>%1$s %2$s</source>
+        <target state="final">%1$s %2$s</target>
+      </trans-unit>
+      <trans-unit id="no.access.title" resname="no.access.title" approved="yes">
+        <source>No access!</source>
+        <target state="final">لا يمكن الوصول!</target>
+      </trans-unit>
+      <trans-unit id="no.access" resname="no.access" approved="yes">
+        <source>You do not have access to these listings.</source>
+        <target state="final">ليس لديك حق الدخول إلى هذه القوائم.</target>
+      </trans-unit>
+      <trans-unit id="label_update-link-list" resname="label_update-link-list" approved="yes">
+        <source>Checking links, please stand by.</source>
+        <target state="final">جاري فحص الروابط، يرجى الانتظار.</target>
+      </trans-unit>
+      <trans-unit id="label_refresh-link-list" resname="label_refresh-link-list" approved="yes">
+        <source>Refreshing link list, please stand by.</source>
+        <target state="final">جاري تحديث قائمة الروابط، يرجى الانتظار.</target>
+      </trans-unit>
+      <trans-unit id="needs-recheck" resname="needs-recheck" approved="yes">
+        <source>Needs recheck</source>
+        <target state="final">يحتاج إلى إعادة فحص</target>
+      </trans-unit>
+      <!-- Modal content -->
+    </body>
+  </file>
+</xliff>

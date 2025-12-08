@@ -1,0 +1,42 @@
+name: wwagner/about
+typeName: wwagner_about
+group: default
+prefixFields: false
+prefixType: full
+basics:
+  - TYPO3/Appearance
+  - TYPO3/Links
+  - TYPO3/Categories
+fields:
+  - identifier: header
+    useExistingField: true
+  - identifier: image
+    useExistingField: true
+    label: 'Image'
+    type: File
+    extendedPalette: true
+    minitems: 1
+    maxitems: 1
+    allowed: common-image-types
+  - identifier: tabs
+    type: Collection
+    label: 'About sections'
+    labelField: title
+    minitems: 1
+    appearance:
+      levelLinksPosition: both
+    fields:
+      - identifier: title
+        type: Text
+        label: 'Section header'
+        required: true
+      - identifier: subheader
+        useExistingField: true
+        type: Text
+        label: 'Subheader'
+      - identifier: bodytext
+        useExistingField: true
+        type: Textarea
+        label: 'Section content'
+        enableRichtext: true
+        

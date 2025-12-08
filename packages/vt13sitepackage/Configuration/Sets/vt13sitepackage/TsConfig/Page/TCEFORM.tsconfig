@@ -1,0 +1,19 @@
+TCEFORM {
+  tt_content {
+    header_layout {
+      altLabels {
+        0 = H2 Überschrift (Absatzüberschrift)
+        1 = H1 Überschrift (nur einmal pro Seite verwenden!)
+        2 =
+        3 = H3 Überschrift
+        4 = H4 Überschrift
+        5 = H5 Überschrift
+      }
+      removeItems = 2
+    }
+
+    CType {
+      removeItems = header
+    }
+  }
+}

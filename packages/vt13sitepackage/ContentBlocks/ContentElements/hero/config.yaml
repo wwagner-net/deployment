@@ -1,0 +1,37 @@
+name: wwagner/hero
+typeName: wwagner_hero
+group: default
+prefixFields: false
+prefixType: full
+basics:
+  - TYPO3/Links
+  - TYPO3/Categories
+fields:
+  -
+    identifier: header
+    useExistingField: true
+  - identifier: image
+    useExistingField: true
+    label: 'Hintergrundbild'
+    type: File
+    extendedPalette: false
+    minitems: 1
+    maxitems: 1
+    allowed: common-image-types
+  - identifier: bodytext
+    useExistingField: true
+    enableRichtext: true
+    label: 'Text in der zweiten Zeile'
+  - identifier: button_text
+    type: Text
+    label: 'Text auf dem Button'
+  - identifier: header_link
+    type: Link
+    useExistingField: true
+    autocomplete: true
+    allowedTypes:
+      - page
+      - url
+      - file
+      - email
+      - telephone

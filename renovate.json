@@ -1,0 +1,57 @@
+{
+	"extends": [
+		"config:recommended",
+		":disableMajorUpdates"
+	],
+	"enabledManagers": [
+		"composer"
+	],
+	"automergeType": "branch",
+	"ignoreTests": true,
+	"packageRules": [
+		{
+			"matchPackageNames": [
+				"typo3/cms-**"
+			],
+			"groupName": "TYPO3 Core update",
+			"rangeStrategy": "update-lockfile",
+			"allowedVersions": "<=13.4.99",
+			"automerge": true
+		},
+		{
+			"matchPackageNames": [
+				"friendsoftypo3/content-blocks",
+				"b13/container",
+				"undefined/translate-locallang",
+				"thieleundklose/autotranslate",
+				"lochmueller/sourceopt",
+				"helhum/typo3-console",
+				"sitegeist/image-jack"
+			],
+			"groupName": "Enabled Extension Updates",
+			"rangeStrategy": "in-range-only",
+			"enabled": true,
+			"automerge": true
+		},
+		{
+			"matchPackageNames": [
+				"wwagner/vt13sitepackage"
+			],
+			"enabled": false
+		}
+	],
+	"composer": {
+		"managerFilePatterns": [
+			"/^composer\\.json$/"
+		]
+	},
+	"prHourlyLimit": 0,
+	"prConcurrentLimit": 0,
+	"commitMessagePrefix": "[RENOVATE] ",
+	"commitMessageTopic": "{{depName}}",
+	"commitMessageExtra": " ({{{displayFrom}}} => {{{displayTo}}})",
+	"timezone": "Europe/Berlin",
+	"schedule": [
+		"* * * * *"
+	]
+}

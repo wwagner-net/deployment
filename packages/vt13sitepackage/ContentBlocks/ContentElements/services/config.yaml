@@ -1,0 +1,43 @@
+name: wwagner/services
+typeName: wwagner_services
+group: default
+prefixFields: false
+prefixType: full
+basics:
+  - TYPO3/Appearance
+  - TYPO3/Links
+  - TYPO3/Categories
+fields:
+  -
+    identifier: header
+    useExistingField: true
+    label: 'Titel des Elements (nicht sichtbar im Frontend)'
+  - identifier: serviceelements
+    type: Collection
+    label: 'Service Elemente'
+    labelField: title
+    minitems: 1
+    appearance:
+      levelLinksPosition: both
+    fields:
+      - identifier: title
+        type: Text
+        required: true
+        label: 'Überschrift des Elements'
+      - identifier: bodytext
+        type: Textarea
+        useExistingField: true
+        label: 'Text im Element'
+        enableRichtext: true
+      - identifier: header_link
+        type: Link
+        useExistingField: true
+        autocomplete: true
+        allowedTypes:
+          - page
+          - url
+          - file
+          - email
+          - telephone
+      - identifier: Wagner/Icons
+        type: Basic

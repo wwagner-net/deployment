@@ -1,0 +1,25 @@
+tt_content.2cols < lib.contentElement
+tt_content.2cols {
+  templateName = 2Cols
+  templateRootPaths {
+    10 = EXT:vt13sitepackage/Resources/Private/Extensions/container/Templates
+  }
+  layoutRootPaths {
+    100 = EXT:vt13sitepackage/Resources/Private/Extensions/fluid_styled_content/Layouts/
+  }
+  dataProcessing {
+    100 = B13\Container\DataProcessing\ContainerProcessor
+  }
+}
+
+tt_content.3cols < tt_content.2cols
+tt_content.3cols.templateName = 3Cols
+
+tt_content.4cols < tt_content.2cols
+tt_content.4cols.templateName = 4Cols
+
+tt_content.2cols-left < tt_content.2cols
+tt_content.2cols-left.templateName = 2Cols-left
+
+tt_content.2cols-right < tt_content.2cols
+tt_content.2cols-right.templateName = 2Cols-right

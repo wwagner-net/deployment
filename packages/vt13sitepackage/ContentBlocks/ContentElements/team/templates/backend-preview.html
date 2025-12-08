@@ -1,0 +1,9 @@
+<f:asset.css identifier="content-block-wwagner-wwagner/team-be" href="{cb:assetPath()}/preview.css"/>
+<div class="row">
+<f:for each="{data.members}" as="item">
+	<div class="col-md-2">
+		<f:image image="{item.image.0}" height="130"/><br>
+		{item.header}
+	</div>
+</f:for>
+</div>

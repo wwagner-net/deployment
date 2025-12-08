@@ -1,0 +1,106 @@
+autotranslatePagesEnabled: true
+autotranslatePagesFileReferences: 'media, og_image, twitter_image'
+autotranslatePagesLanguages: '1,2'
+autotranslatePagesTextfields: 'title, nav_title, subtitle, target, url, cache_tags, keywords, description, abstract, author, rowDescription, seo_title, og_title, og_description, twitter_title, twitter_description'
+autotranslateSysFileReferenceTextfields: 'title, description, alternative'
+autotranslateTtContentEnabled: true
+autotranslateTtContentFileReferences: 'image, assets, media'
+autotranslateTtContentLanguages: '1,2'
+autotranslateTtContentTextfields: 'header, subheader, bodytext, button_text, rowDescription, table_caption, target'
+base: /
+baseVariants:
+  -
+    base: 'https://deployment.ddev.site/'
+    condition: 'applicationContext == "Development"'
+deeplAuthKey: '31337548-882f-6ff1-cc19-ba0baa2c8f09:fx'
+dependencies:
+  - wwagner/vt13sitepackage
+errorHandling:
+  -
+    errorCode: 404
+    errorHandler: Page
+    errorContentSource: 't3://page?uid=21'
+  -
+    errorCode: 503
+    errorHandler: Page
+    errorContentSource: 't3://page?uid=75'
+  -
+    errorCode: 403
+    errorHandler: LoginRedirect
+    loginRedirectTarget: 't3://page?uid=77'
+    loginRedirectParameter: return_url
+languages:
+  -
+    title: Deutsch
+    enabled: true
+    languageId: 0
+    base: /
+    locale: de_DE
+    navigationTitle: Deutsch
+    flag: de
+    hreflang: de-DE
+    websiteTitle: 'Innovatech Solutions'
+  -
+    title: English
+    enabled: true
+    locale: en_US
+    hreflang: en-US
+    base: /en/
+    websiteTitle: 'Innovatech Solutions'
+    navigationTitle: English
+    fallbackType: fallback
+    fallbacks: '0'
+    flag: en-us-gb
+    languageId: 1
+    deeplTargetLanguage: EN-US
+  -
+    title: French
+    enabled: true
+    locale: fr_FR
+    hreflang: fr-FR
+    base: /fr/
+    websiteTitle: 'Innovatech Solutions'
+    navigationTitle: Français
+    fallbackType: free
+    fallbacks: '1,0'
+    flag: fr
+    languageId: 2
+    deeplTargetLanguage: FR
+    deeplFormality: default
+  -
+    title: Maori
+    enabled: true
+    locale: mi_NZ
+    hreflang: ''
+    base: /mi/
+    websiteTitle: ''
+    navigationTitle: Māori
+    fallbackType: fallback
+    fallbacks: '1,0'
+    flag: mi
+    languageId: 3
+    deeplTargetLanguage: ''
+  -
+    title: Dutch
+    enabled: true
+    locale: nl_NL
+    hreflang: ''
+    base: /nl/
+    websiteTitle: ''
+    navigationTitle: Nederlands
+    fallbackType: strict
+    fallbacks: ''
+    flag: nl
+    languageId: 4
+rootPageId: 1
+routeEnhancers:
+  PageTypeSuffix:
+    type: PageType
+    map:
+      sitemap.xml: 1533906435
+routes:
+  -
+    route: robots.txt
+    type: staticText
+    content: "User-agent: *\r\nDisallow: \r\nDisallow: /typo3/\r\nDisallow: /fileadmin/\r\n# Sitemap: https://www.example.org/sitemap.xml\r\n"
+websiteTitle: ''

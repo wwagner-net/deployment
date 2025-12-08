@@ -1,0 +1,76 @@
+name: wwagner/team
+typeName: wwagner_team
+group: default
+prefixFields: false
+prefixType: full
+basics:
+  - TYPO3/Appearance
+  - TYPO3/Links
+  - TYPO3/Categories
+fields:
+  - identifier: header
+    useExistingField: true
+    label: 'Name (not visible in frontend)'
+  - identifier: members
+    type: Collection
+    label: 'Team members'
+    labelField: header
+    minitems: 1
+    appearance:
+      levelLinksPosition: both
+    fields:
+      - identifier: header
+        useExistingField: true
+        type: Text
+        required: true
+        label: 'Name'
+      - identifier: subheader
+        type: Text
+        useExistingField: true
+        label: 'Position (CEO,CTA etc.)'
+      - identifier: image
+        useExistingField: true
+        label: 'Image of team member'
+        type: File
+        extendedPalette: false
+        minitems: 1
+        maxitems: 1
+        allowed: common-image-types
+      - identifier: icons
+        type: Collection
+        label: 'Contact and Social Media Icons'
+        labelField: icon
+        appearance:
+          levelLinksPosition: bottom
+        fields:
+          - identifier: icon
+            type: Select
+            renderType: selectSingle
+            label: 'Icon'
+            items:
+              - label: 'Facebook'
+                value: 'bi-facebook'
+              - label: 'Twitter/X'
+                value: 'bi-twitter-x'
+              - label: 'LinkedIn'
+                value: 'bi-linkedin'
+              - label: 'Instagram'
+                value: 'bi-instagram'
+              - label: 'YouTube'
+                value: 'bi-youtube'
+              - label: 'GitHub'
+                value: 'bi-github'
+              - label: 'Discord'
+                value: 'bi-discord'
+              - label: 'WhatsApp'
+                value: 'bi-whatsapp'
+              - label: 'Telegram'
+                value: 'bi-telegram'
+              - label: 'Website'
+                value: 'bi-globe'
+              - label: 'E-Mail'
+                value: 'bi-envelope'
+          - identifier: header_link
+            type: Link
+            useExistingField: true
+        

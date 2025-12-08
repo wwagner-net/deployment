@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file datatype="plaintext" original="labels.xlf" source-language="en" date="2024-10-19T11:56:01+00:00" product-name="wwagner/services">
+		<header/>
+		<body>
+			<trans-unit id="title" resname="title">
+				<source>Services</source>
+			</trans-unit>
+			<trans-unit id="description" resname="description">
+				<source>Info boxes about various services</source>
+			</trans-unit>
+			<trans-unit id="header.label" resname="header.label">
+				<source>Title of the element (not visible in the frontend)</source>
+			</trans-unit>
+			<trans-unit id="serviceelements.label" resname="serviceelements.label">
+				<source>Service elements</source>
+			</trans-unit>
+			<trans-unit id="serviceelements.title.label" resname="serviceelements.title.label">
+				<source>Heading of the element</source>
+			</trans-unit>
+			<trans-unit id="serviceelements.bodytext.label" resname="serviceelements.bodytext.label">
+				<source>Text in element</source>
+			</trans-unit>
+			<trans-unit id="serviceelements.icon.label" resname="serviceelements.icon.label">
+				<source>Icon</source>
+			</trans-unit>
+			<trans-unit id="serviceelements.icon.description" resname="serviceelements.icon.description">
+				<source>Bootstrap icon, see https://icons.getbootstrap.com/</source>
+			</trans-unit>
+			<trans-unit id="serviceelements.icon.items.bi-briefcase.label" resname="serviceelements.icon.items.bi-briefcase.label">
+				<source>Briefcase</source>
+			</trans-unit>
+			<trans-unit id="serviceelements.icon.items.bi-laptop.label" resname="serviceelements.icon.items.bi-laptop.label">
+				<source>Laptop</source>
+			</trans-unit>
+			<trans-unit id="serviceelements.icon.items.bi-code-slash.label" resname="serviceelements.icon.items.bi-code-slash.label">
+				<source>Code</source>
+			</trans-unit>
+			<trans-unit id="serviceelements.icon.items.bi-server.label" resname="serviceelements.icon.items.bi-server.label">
+				<source>Server</source>
+			</trans-unit>
+			<trans-unit id="serviceelements.icon.items.bi-shield-lock.label" resname="serviceelements.icon.items.bi-shield-lock.label">
+				<source>Shield Lock</source>
+			</trans-unit>
+			<trans-unit id="serviceelements.icon.items.bi-database.label" resname="serviceelements.icon.items.bi-database.label">
+				<source>Database</source>
+			</trans-unit>
+			<trans-unit id="serviceelements.icon.items.bi-cloud.label" resname="serviceelements.icon.items.bi-cloud.label">
+				<source>Cloud</source>
+			</trans-unit>
+			<trans-unit id="serviceelements.icon.items.bi-graph-up.label" resname="serviceelements.icon.items.bi-graph-up.label">
+				<source>Graph Up</source>
+			</trans-unit>
+			<trans-unit id="serviceelements.icon.items.bi-terminal.label" resname="serviceelements.icon.items.bi-terminal.label">
+				<source>Terminal</source>
+			</trans-unit>
+			<trans-unit id="serviceelements.icon.items.bi-globe.label" resname="serviceelements.icon.items.bi-globe.label">
+				<source>Globe</source>
+			</trans-unit>
+			<trans-unit id="serviceelements.icon.items.bi-person-workspace.label" resname="serviceelements.icon.items.bi-person-workspace.label">
+				<source>Person Workspace</source>
+			</trans-unit>
+			<trans-unit id="serviceelements.icon.items.bi-tools.label" resname="serviceelements.icon.items.bi-tools.label">
+				<source>Tools</source>
+			</trans-unit>
+			<trans-unit id="serviceelements.icon.items.bi-file-code.label" resname="serviceelements.icon.items.bi-file-code.label">
+				<source>File Code</source>
+			</trans-unit>
+			<trans-unit id="serviceelements.icon.items.bi-lock-fill.label" resname="serviceelements.icon.items.bi-lock-fill.label">
+				<source>Lock Fill</source>
+			</trans-unit>
+			<trans-unit id="serviceelements.icon.items.bi-bug.label" resname="serviceelements.icon.items.bi-bug.label">
+				<source>Bug</source>
+			</trans-unit>
+			<trans-unit id="serviceelements.icon.items.bi-diagram-3.label" resname="serviceelements.icon.items.bi-diagram-3.label">
+				<source>Network</source>
+			</trans-unit>
+			<trans-unit id="serviceelements.icon.items.bi-cpu.label" resname="serviceelements.icon.items.bi-cpu.label">
+				<source>CPU</source>
+			</trans-unit>
+			<trans-unit id="serviceelements.icon.items.bi-wifi.label" resname="serviceelements.icon.items.bi-wifi.label">
+				<source>Wifi</source>
+			</trans-unit>
+			<trans-unit id="serviceelements.icon.items.bi-chat-dots.label" resname="serviceelements.icon.items.bi-chat-dots.label">
+				<source>Chat Dots</source>
+			</trans-unit>
+			<trans-unit id="serviceelements.icon.items.bi-eye-fill.label" resname="serviceelements.icon.items.bi-eye-fill.label">
+				<source>Eye Fill</source>
+			</trans-unit>
+			<trans-unit id="serviceelements.icon.items.bi-rocket.label" resname="serviceelements.icon.items.bi-rocket.label">
+				<source>Rocket</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

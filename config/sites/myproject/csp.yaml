@@ -1,0 +1,16 @@
+# Inherits default site-unspecific frontend policy mutations (enabled per default)
+inheritDefault: true
+mutations:
+  # Results in `default-src 'self'`
+  - mode: "set"
+    directive: "default-src"
+    sources:
+      - "'self'"
+  - mode: extend
+    directive: 'font-src'
+    sources:
+      - 'data:'
+  - mode: extend
+    directive: 'frame-src'
+    sources:
+      - 'https://*.google.com'

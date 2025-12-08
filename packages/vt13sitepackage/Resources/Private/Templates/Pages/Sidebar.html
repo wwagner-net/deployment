@@ -1,0 +1,33 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default"/>
+<f:spaceless>
+<f:debug>{_all}</f:debug>
+	<f:section name="Main">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8">
+                    <f:for each="{content.normal.records}" as="contentElement">
+                        <f:cObject
+                            typoscriptObjectPath="{contentElement.mainType}"
+                            table="{contentElement.mainType}"
+                            data="{contentElement}"
+                        />
+                    </f:for>
+				</div>
+				<div class="col-lg-4 sidebar">
+                    <f:for each="{content.sidebar.records}" as="contentElement">
+                        <f:cObject
+                            typoscriptObjectPath="{contentElement.mainType}"
+                            table="{contentElement.mainType}"
+                            data="{contentElement}"
+                        />
+                    </f:for>
+				</div>
+			</div>
+		</div>
+
+	</f:section>
+
+</f:spaceless>
+</html>

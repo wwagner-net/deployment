@@ -1,0 +1,18 @@
+mod.web_list.downloadPresets {
+  pages {
+    10 {
+      label = Quick overview
+      columns = uid, title, crdate, slug
+    }
+
+    20 {
+      identifier = UID and title only
+      label = UID and titles only
+      columns = uid, title
+    }
+  }
+}
+
+
+# Set the default search level to "infinite levels"
+mod.web_list.searchLevel.default = -1

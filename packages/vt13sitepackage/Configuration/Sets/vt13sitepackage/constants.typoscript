@@ -1,0 +1,8 @@
+@import "EXT:sourceopt/Configuration/TypoScript/constants.typoscript"
+
+sourceopt.formatHtml = 1
+
+[applicationContext == "Development"]
+#sourceopt.enabled = 0
+sourceopt.formatHtml = 4
+[END]

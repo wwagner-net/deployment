@@ -1,0 +1,66 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default"/>
+<f:section name="Header"/>
+<f:section name="Main">
+	<f:asset.css identifier="testimonials" href="{cb:assetPath()}/frontend.css"/>
+	<div class="testimonials">
+		<div class="container" data-aos="fade-up" data-aos-delay="100">
+			<div class="swiper init-swiper">
+				<script type="application/json" class="swiper-config">
+					{
+						"loop": true,
+						"speed": 800,
+						"autoHeight": false,
+						"autoplay": {
+							"delay": 5000
+						},
+						"slidesPerView": "auto",
+						"pagination": {
+							"el": ".swiper-pagination",
+							"type": "bullets",
+							"clickable": true
+						},
+						"breakpoints": {
+							"320": {
+								"slidesPerView": 1,
+								"spaceBetween": 40
+							},
+							"1200": {
+								"slidesPerView": 3,
+								"spaceBetween": 10
+							}
+						}
+					}
+				</script>
+				<div class="swiper-wrapper">
+
+					<f:for each="{data.testimonials}" as="item">
+						<div class="swiper-slide">
+							<div class="testimonial-item">
+								<f:image image="{item.image.0}" class="testimonial-img" width="90c" height="90c"/>
+								<h3>{item.header}</h3>
+								<h4>{item.subheader}</h4>
+								<div class="stars">
+									<f:for each="{0:1, 1:2, 2:3, 3:4, 4:5}" as="star" iteration="i">
+										<f:if condition="{i.index} < {item.rating}">
+											<i class="bi bi-star-fill"></i>
+										</f:if>
+									</f:for>
+								</div>
+								<div>
+									<i class="bi bi-quote quote-icon-left"></i>
+									<span>
+										<f:format.html parseFuncTSPath="lib.parseFunc_RTE">{item.bodytext}</f:format.html>
+									</span>
+									<i class="bi bi-quote quote-icon-right"></i>
+								</div>
+							</div>
+						</div>
+					</f:for>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+	</div>
+</f:section>
+</html>

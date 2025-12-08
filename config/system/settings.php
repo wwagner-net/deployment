@@ -23,7 +23,7 @@ return [
                 ],
                 'driver' => 'mysqli',
                 'host' => 'db003424.mydbserver.com',
-                'password' => '07o0mPM=b%!r__',
+                'password' => '07o0mPM=b%!r',
                 'port' => 3306,
                 'user' => 'p702247',
             ],

@@ -15,7 +15,7 @@ import('.hosts.yml');
 set('http_user', 'p702247');
 set('http_group', 'users');
 
-set('/usr/local/bin/php', 'php');
+set('php', '/usr/local/bin/php');
 set('bin/typo3', '{{release_path}}/vendor/bin/typo3');
 
 // Set maximum number of releases
